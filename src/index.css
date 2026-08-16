@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    touch-action: manipulation;
+  }
+}
+
+/* Custom internal phone scrollbar */
+#phone-scroll-viewport::-webkit-scrollbar {
+  width: 5px;
+}
+
+#phone-scroll-viewport::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#phone-scroll-viewport::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 9999px;
+}
+
+#phone-scroll-viewport::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}

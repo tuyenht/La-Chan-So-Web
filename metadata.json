@@ -1,0 +1,6 @@
+{
+  "name": "Lá Chắn Số - CyberShield",
+  "description": "Ứng dụng bảo vệ an toàn số, tra cứu lừa đảo trực tuyến, kiểm tra link/tin nhắn độc hại và cẩm nang phòng chống tội phạm mạng.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
